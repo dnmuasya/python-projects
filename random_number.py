@@ -20,4 +20,4 @@ while number_of_guesses < 5:
 if guess == number:
     print('Correct! You guessed the number in ' + str(number_of_guesses)+ ' tries!')
 else:
-    print('You did not guess the number. The number was ' + str(number) + '.')
+    print('You did not guess the number in ' + str(number_of_guesses)+ ' tries! The number was ' + str(number) + '.')
