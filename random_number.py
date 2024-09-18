@@ -5,6 +5,7 @@ number = random.randint(1,25)
 number_of_guesses = 0
 
 while number_of_guesses < 5:
+    #validate the entry to ensure it's a number
     try:
         guess = input('Guess a number between 1 and 25: ')
         guess = int(guess)
